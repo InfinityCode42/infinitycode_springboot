@@ -1,4 +1,4 @@
-package infinity_springboot.controller;
+package infinity_springboot.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package infinity_springboot.controller;
+package infinity_springboot.demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,16 +8,16 @@ public class Usuario {
 
 	@RequestMapping("/login")
 	public String login() {
-		return "Usuario/login";
+		return "infinity_springboot.controller.Usuario/login";
 	}
 
 	@RequestMapping("/cadastro")
 	public String CadastroUsuario() {
-		return "Usuario/cadastro";
+		return "infinity_springboot.controller.Usuario/cadastro";
 	}
 
 	@RequestMapping("/esquecisenha")
 	public String esqueciSenha() {
-		return "Usuario/esquecisenha";
+		return "infinity_springboot.controller.Usuario/esquecisenha";
 	}
 }

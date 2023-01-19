@@ -1,4 +1,4 @@
-package Models;
+package infinity_springboot.demo.Models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
