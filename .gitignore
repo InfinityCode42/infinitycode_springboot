@@ -8,3 +8,4 @@
 /infinitycode_springboot/target/classes/infinity_springboot/demo/model/Person.class
 /infinitycode_springboot/target/classes/infinity_springboot/demo/repository/PersonRepository.class
 /infinitycode_springboot/target/classes/db/migration/V1__create_table_users.sql
+.vscode
