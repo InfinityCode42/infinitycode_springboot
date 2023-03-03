@@ -3,13 +3,23 @@ body {
     background-size: cover;
     /* background-color: rgb(232, 241, 242); */
 }
-@font-face{
-    font-family: "ARCADECLASSIC" ;
+
+@font-face {
+    font-family: "ARCADECLASSIC";
 
     /*Caso a fonte esteja na mesma pasta*/
     src: url("../fonts/fonts_arcade_classic/ARCADECLASSIC.TTF");
 }
-h1, h2,h3, h4, h5, h6,label, a, button{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+a,
+button {
     font-family: "ARCADECLASSIC";
     text-decoration: none;
 }
@@ -18,7 +28,7 @@ h1, h2,h3, h4, h5, h6,label, a, button{
 
 .card-cadastro {
     border-radius: 16px;
-    
+
     margin-left: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -30,7 +40,7 @@ h1, h2,h3, h4, h5, h6,label, a, button{
 }
 
 .input-cadastro-login {
-    
+
     display: block;
     padding: 0.25rem;
     font-size: 1rem;
@@ -130,4 +140,26 @@ h1, h2,h3, h4, h5, h6,label, a, button{
     content: '';
     display: block;
     padding-top: 100%;
+}
+
+.container .row .col .card-apresentacao {
+    border: 3px solid #0000 !important;
+    box-shadow: rgb(45 35 66 / 40%) 0px 30px 30px, rgb(45 35 66 / 30%) 0px 30px 15px -6px, #d6d6e7 0px 0px 3px 1px inset !important;
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    
+    border-color: black !important;
+    border-radius: 16px !important;
+    color: white;
+    cursor: crosshair;
+    font-weight: bold;
+    
+}
+.card-apresentacao:hover{
+    border: 1px solid #000000;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-5px);
+    background-color: #FFFF;
+    color: #000000 !important;
+    
 }

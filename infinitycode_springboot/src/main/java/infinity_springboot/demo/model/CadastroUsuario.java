@@ -13,8 +13,11 @@ public class CadastroUsuario {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "nome_completo")
-	private String nomeCompleto;
+	@Column(name = "nome")
+	private String nome;
+
+	@Column(name = "sobrenome")
+	private String sobrenome;
 
 	@Column(name = "email")
 	private String email;
@@ -22,12 +25,20 @@ public class CadastroUsuario {
 	@Column(name = "senha")
 	private String senha;
 
-	public String getNomeCompleto() {
-		return nomeCompleto;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setNomeCompleto(String nomeCompleto) {
-		this.nomeCompleto = nomeCompleto;
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getSobrenome() {
+		return sobrenome;
+	}
+
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
 	}
 
 	public String getEmail() {

@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Usuario {
 
+	@RequestMapping("/")
+	public String Site() {
+		return "Site/site";
+	}
+	
 	@RequestMapping("/login")
 	public String login() {
 		return "Usuario/login";
@@ -20,4 +25,5 @@ public class Usuario {
 	public String esqueciSenha() {
 		return "Usuario/esquecisenha";
 	}
+	
 }
